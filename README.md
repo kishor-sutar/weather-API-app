@@ -1,12 +1,51 @@
-# React + Vite
+Weather API App
+A clean and simple single-page application built with React that fetches and displays real-time weather data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created to practice modern web development skills, including API integration, state management in React, and building a responsive user interface.
 
-Currently, two official plugins are available:
+Features
+Live Weather Data: Get up-to-the-minute weather conditions, including temperature, humidity, and atmospheric pressure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Search by City: Easily look up the weather for any city in the world.
 
-## Expanding the ESLint configuration
+Responsive Design: A clean, modern UI that works well on both desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies Used
+React: The core framework for the user interface.
+
+OpenWeatherMap API: Provides the weather data.
+
+Material UI: Used for creating the components and styling the app.
+
+Getting Started
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+git clone [https://github.com/kishor-sutar/weather-API-app.git](https://github.com/kishor-sutar/weather-API-app.git)
+
+Navigate to the project directory:
+
+cd weather-API-app
+
+Install the dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+The app should now be running in your browser at http://localhost:5173/.
+
+API Key
+To get the app to work, you'll need a free API key from the OpenWeatherMap website.
+
+Once you have your key, you must add it to a file named .env in the root of your project. The file should look like this:
+
+VITE_API_KEY=your_api_key_here
+
+Connect with Me
+GitHub: github.com/kishor-sutar
+
+LinkedIn: https://www.linkedin.com/in/kishor-sutar-426974302/
