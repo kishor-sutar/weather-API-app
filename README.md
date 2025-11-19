@@ -36,7 +36,7 @@ Start the development server:
 
 npm run dev
 
-The app should now be running in your browser at http://localhost:5173/.
+
 
 API Key
 To get the app to work, you'll need a free API key from the OpenWeatherMap website.
